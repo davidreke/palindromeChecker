@@ -2,7 +2,7 @@ function displayResult(test) {
     console.log('displayResult called on', test)
     if(palindrome(test)){
         console.log('it is a palindrome!')
-        document.getElementById('answer').innerHTML ="<h2 id=''rightAnswer> You made a palindrome!</h2>"
+        document.getElementById('answer').innerHTML ="<h2 id='rightAnswer'> You made a palindrome!</h2>"
     } else {
         console.log("that's not a palindorm you dumbass")
         document.getElementById('answer').innerHTML ="<h2 id='wrongAnswer'> Boy... you screwed that up</h2>"

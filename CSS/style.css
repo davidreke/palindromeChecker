@@ -5,9 +5,9 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-
+    font-family: 'Oxanium', ;
     
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+    /* font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif */
 }
 
 h1{
@@ -16,13 +16,15 @@ h1{
     font-size: 75px;
 }
 
-#wrongAnswer h2{
+h2#wrongAnswer{
     color: red;
 }
 
-#rightAnswer h2{
+h2#rightAnswer{
     color: green;
 }
+
+
 
 .container{
     margin-top: 15vh;
@@ -32,7 +34,7 @@ h1{
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    border: solid red;
+    /* border: solid red; */
    
 } 
 
@@ -40,3 +42,22 @@ h1{
     height: 25px;
     width: 400px;
 }
+
+
+button {
+    background-color: #4CAF50;
+    height: 35px;
+    width:  300px;
+    border-radius: 5px;
+    border: none;
+    font-size: 21px;
+}
+
+button:hover {
+ font-size: 22px;
+ height: 37px;
+ width: 330px;
+ background-color: #7EB07F;
+}
+/* from button example */
+
