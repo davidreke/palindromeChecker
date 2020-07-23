@@ -46,4 +46,4 @@ function palindrome(str) {
       return true
     
     }
-    palindrome("0_0 (: /-\ :) 0-0");
+    palindrome("0_0 (: /-\ :) 0-0"); 
